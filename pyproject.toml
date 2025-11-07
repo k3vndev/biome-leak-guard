@@ -1,7 +1,7 @@
 [project]
-name = "biome-leak-killer"
-version = "0.1.0"
-description = "Add your description here"
+name = "biome-leak-guard"
+version = "1.0.0"
+description = "Watch over biomejs processes and terminate them if they leak memory."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
@@ -9,5 +9,5 @@ dependencies = [
 ]
 
 [project.scripts]
-biomekiller = "main:main"
-blk = "main:main"
+blguard = "main:main"
+blg = "main:main"
